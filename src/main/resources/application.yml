@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: kafka-request-reply-create-order
+
+logging:
+  level:
+    root: ERROR
+    org.springframework.web: ERROR
+    org.apache.kafka: WARN
+    com.lastminute: INFO
